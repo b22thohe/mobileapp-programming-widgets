@@ -19,7 +19,7 @@ in the emulator (Pixel 6 with version 31). The result can be seen in
 Image 1.
 
 **Image 1 **  <br/><br/>
-![image 1](screen_1)
+![image 1](screen_1.png)
 
 Repositioned the image to middle of screen by changing the vertical
 constraints. Moved the textview above the image and changed its 
@@ -47,4 +47,4 @@ Tested the app again in the emulator to see that all was showing correctly.
 The result can be seen in Image 2.
 
 **Image 1 **  <br/><br/>
-![image 1](screen_2)
+![image 1](screen_2.png)
