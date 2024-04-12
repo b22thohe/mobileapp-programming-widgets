@@ -9,24 +9,28 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/myImage"
             android:layout_width="300dp"
             android:layout_height="260dp"
             android:contentDescription="my image"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
 
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/myimage" />
 
         <Button
             android:id="@+id/myButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:layout_marginBottom="268dp"
             android:text="Press me"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -34,17 +38,17 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/myImage"
-            app:layout_constraintVertical_bias="0.836" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/myTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This is text inside the TextView"
-            app:layout_constraintBottom_toTopOf="@+id/myButton"
+            app:layout_constraintBottom_toTopOf="@+id/myImage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/myImage" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
